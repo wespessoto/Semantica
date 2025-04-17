@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do corpo da pagína*/
+body{
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6
+}
+
+/*Estilo do cabeçalho*/
+header {
+    background-color: #1274d6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/*Estilo das seções */
+section{
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Estilos para os artigos */
+article {
+    background: #e6f7ff ;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*Estilo do aside*/
+aside{
+    background: #ffebcd;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 5px;
+}
+
+/*Estilo de rodapé */
+footer{
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
